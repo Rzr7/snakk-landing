@@ -1,0 +1,76 @@
+@snakk-main: #99c332;
+
+.logo {
+  width: 180px;
+
+  @media only screen and (max-width: 640px) {
+    width: 140px;
+  }
+}
+
+.footer-color {
+  background-color: #6d9608;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  overflow: hidden;
+
+  .header-bg {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+
+    @media only screen and (max-width: 640px) {
+      height: 140%;
+      width: auto;
+    }
+  }
+
+  .header-content {
+    max-width: 600px;
+    position: relative;
+    z-index: 10;
+
+    .header-description {
+      margin-top: 30px;
+    }
+
+    .header-buttons {
+      margin-top: 20px;
+    }
+  }
+}
+
+.btn-snakk {
+  border-color: @snakk-main;
+  background-color: @snakk-main;
+  color: #fff;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: #fff;
+  }
+}
+
+.btn-outline-snakk {
+  border: 2px solid @snakk-main;
+  color: @snakk-main;
+  background-color: transparent !important;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: @snakk-main;
+  }
+}
+
+.content-block {
+  margin-top: 15px;
+}

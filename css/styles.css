@@ -1,0 +1,66 @@
+.logo {
+  width: 180px;
+}
+@media only screen and (max-width: 640px) {
+  .logo {
+    width: 140px;
+  }
+}
+.footer-color {
+  background-color: #6d9608;
+}
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  overflow: hidden;
+}
+.header .header-bg {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+}
+@media only screen and (max-width: 640px) {
+  .header .header-bg {
+    height: 140%;
+    width: auto;
+  }
+}
+.header .header-content {
+  max-width: 600px;
+  position: relative;
+  z-index: 10;
+}
+.header .header-content .header-description {
+  margin-top: 30px;
+}
+.header .header-content .header-buttons {
+  margin-top: 20px;
+}
+.btn-snakk {
+  border-color: #99c332;
+  background-color: #99c332;
+  color: #fff;
+}
+.btn-snakk:hover,
+.btn-snakk:focus,
+.btn-snakk:active {
+  color: #fff;
+}
+.btn-outline-snakk {
+  border: 2px solid #99c332;
+  color: #99c332;
+  background-color: transparent !important;
+}
+.btn-outline-snakk:hover,
+.btn-outline-snakk:focus,
+.btn-outline-snakk:active {
+  color: #99c332;
+}
+.content-block {
+  margin-top: 15px;
+}
+/*# sourceMappingURL=styles.css.map */

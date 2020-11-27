@@ -6,6 +6,22 @@
     width: 140px;
   }
 }
+.snakk-navbar {
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+@media only screen and (min-width: 641px) {
+  .snakk-navbar {
+    padding: 0.5rem 3rem;
+  }
+}
+.snakk-navbar .lang-dropdown {
+  border: 2px solid #99c332;
+  padding: 0 15px;
+  background: #fff;
+}
 .footer-color {
   background-color: #6d9608;
 }

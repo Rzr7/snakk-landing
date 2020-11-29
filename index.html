@@ -190,52 +190,54 @@
 
           <div class="row">
             <div class="col-lg-12">
-              <div class="form">
-                <h2 class="text-center dark-grey-text font-weight-bold mb-4 pb-2">Võta meiega ühendust</h2>
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="md-form mb-0">
-                      <input type="text" id="form-contact-name" class="form-control">
-                      <label for="form-contact-name" class="">Nimi</label>
+              <form action="mailto:nikita@snakk.ee" method="post" enctype="text/plain">
+                <div class="form">
+                  <h2 class="text-center dark-grey-text font-weight-bold mb-4 pb-2">Võta meiega ühendust</h2>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="md-form mb-0">
+                        <input type="text" id="form-contact-name" class="form-control" name="name" required>
+                        <label for="form-contact-name">Nimi</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="md-form mb-0">
+                        <input type="text" id="form-contact-email" class="form-control" name="email" required>
+                        <label for="form-contact-email">E-Mail</label>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-md-6">
-                    <div class="md-form mb-0">
-                      <input type="text" id="form-contact-email" class="form-control">
-                      <label for="form-contact-email" class="">E-Mail</label>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="md-form mb-0">
+                        <input type="text" id="form-contact-phone" class="form-control" name="phone">
+                        <label for="form-contact-phone">Telefon</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="md-form mb-0">
+                        <input type="text" id="form-contact-company" class="form-control" name="company">
+                        <label for="form-contact-company">Ettevõtte</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="md-form mb-0">
+                        <textarea id="form-contact-message" class="form-control md-textarea" rows="3" name="body" required></textarea>
+                        <label for="form-contact-message">Sõnum</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-md-12">
+                      <div class="text-center">
+                        <button type="submit" class="btn btn-snakk btn-md">Saada</button>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="md-form mb-0">
-                      <input type="text" id="form-contact-phone" class="form-control">
-                      <label for="form-contact-phone" class="">Telefon</label>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="md-form mb-0">
-                      <input type="text" id="form-contact-company" class="form-control">
-                      <label for="form-contact-company" class="">Ettevõtte</label>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="md-form mb-0">
-                      <textarea id="form-contact-message" class="form-control md-textarea" rows="3"></textarea>
-                      <label for="form-contact-message">Sõnum</label>
-                    </div>
-                  </div>
-                </div>
-                <div class="row mt-3">
-                  <div class="col-md-12">
-                    <div class="text-center">
-                      <button type="submit" class="btn btn-snakk btn-md">Saada</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              </form>
             </div>
         </div>
       </section>

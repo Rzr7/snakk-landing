@@ -62,7 +62,7 @@
         Заказать еду на месте еще не было настолько просто.
       </div>
       <div class="header-buttons">
-        <a href="#" class="btn btn-outline-snakk waves-effect">Liitu meiega</a>
+        <a href="#" class="btn btn-outline-snakk waves-effect">Присоединяйтесь к нам</a>
       </div>
     </div>
   </div>
@@ -191,52 +191,54 @@
 
           <div class="row">
             <div class="col-lg-12">
-              <div class="form">
-                <h2 class="text-center dark-grey-text font-weight-bold mb-4 pb-2">Свяжитесь с нами</h2>
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="md-form mb-0">
-                      <input type="text" id="form-contact-name" class="form-control">
-                      <label for="form-contact-name" class="">Имя</label>
+              <form action="mailto:nikita@snakk.ee" method="post" enctype="text/plain">
+                <div class="form">
+                  <h2 class="text-center dark-grey-text font-weight-bold mb-4 pb-2">Свяжитесь с нами</h2>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="md-form mb-0">
+                        <input type="text" id="form-contact-name" class="form-control" name="name" required>
+                        <label for="form-contact-name" class="">Имя</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="md-form mb-0">
+                        <input type="text" id="form-contact-email" class="form-control" name="email" required>
+                        <label for="form-contact-email" class="">Э-Мейл адрес</label>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-md-6">
-                    <div class="md-form mb-0">
-                      <input type="text" id="form-contact-email" class="form-control">
-                      <label for="form-contact-email" class="">Э-Мейл адрес</label>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="md-form mb-0">
+                        <input type="text" id="form-contact-phone" class="form-control" name="phone">
+                        <label for="form-contact-phone">Номер телефона</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="md-form mb-0">
+                        <input type="text" id="form-contact-company" class="form-control" name="company">
+                        <label for="form-contact-company">Компания</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="md-form mb-0">
+                        <textarea id="form-contact-message" class="form-control md-textarea" rows="3" name="body" required></textarea>
+                        <label for="form-contact-message">Сообщение</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mt-3">
+                    <div class="col-md-12">
+                      <div class="text-center">
+                        <button type="submit" class="btn btn-snakk btn-md">Отправить</button>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="md-form mb-0">
-                      <input type="text" id="form-contact-phone" class="form-control">
-                      <label for="form-contact-phone" class="">Номер телефона</label>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="md-form mb-0">
-                      <input type="text" id="form-contact-company" class="form-control">
-                      <label for="form-contact-company" class="">Компания</label>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="md-form mb-0">
-                      <textarea id="form-contact-message" class="form-control md-textarea" rows="3"></textarea>
-                      <label for="form-contact-message">Сообщение</label>
-                    </div>
-                  </div>
-                </div>
-                <div class="row mt-3">
-                  <div class="col-md-12">
-                    <div class="text-center">
-                      <button type="submit" class="btn btn-snakk btn-md">Отправить</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              </form>
             </div>
         </div>
       </section>

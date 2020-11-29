@@ -19,8 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a77ed7c0-e961-4e3c-9bfb-94ba30b9a8df" name="Default Changelist" comment="eng version style fix">
+    <list default="true" id="a77ed7c0-e961-4e3c-9bfb-94ba30b9a8df" name="Default Changelist" comment="add favicon">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/en/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ru/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,12 +64,13 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/en" />
       <recent name="$PROJECT_DIR$/ru" />
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/img" />
     </key>
   </component>
@@ -80,7 +84,7 @@
       <updated>1606411007152</updated>
       <workItem from="1606411010319" duration="8872000" />
       <workItem from="1606496067128" duration="1819000" />
-      <workItem from="1606675335715" duration="6487000" />
+      <workItem from="1606675335715" duration="7169000" />
     </task>
     <task id="LOCAL-00001" summary="remove useless trash">
       <created>1606422997495</created>
@@ -110,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606681790250</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add favicon">
+      <created>1606682078685</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606682078685</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,7 +145,8 @@
     <MESSAGE value="Add texts" />
     <MESSAGE value="Add content" />
     <MESSAGE value="eng version style fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="eng version style fix" />
+    <MESSAGE value="add favicon" />
+    <option name="LAST_COMMIT_MESSAGE" value="add favicon" />
   </component>
   <component name="WindowStateProjectService">
     <state x="375" y="154" width="689" height="671" key="EditFileWatcherDialog" timestamp="1606412149328">
@@ -161,10 +173,10 @@
       <screen x="0" y="25" width="1440" height="800" />
     </state>
     <state x="229" y="61" key="SettingsEditor/0.25.1440.800@0.25.1440.800" timestamp="1606412132327" />
-    <state x="320" y="162" key="Vcs.Push.Dialog.v2" timestamp="1606681791751">
+    <state x="320" y="162" key="Vcs.Push.Dialog.v2" timestamp="1606682080327">
       <screen x="0" y="25" width="1440" height="800" />
     </state>
     <state x="55" y="-1173" key="Vcs.Push.Dialog.v2/0.25.1440.800/-514.-1415.2560.1415@-514.-1415.2560.1415" timestamp="1606497982071" />
-    <state x="320" y="162" key="Vcs.Push.Dialog.v2/0.25.1440.800@0.25.1440.800" timestamp="1606681791751" />
+    <state x="320" y="162" key="Vcs.Push.Dialog.v2/0.25.1440.800@0.25.1440.800" timestamp="1606682080327" />
   </component>
 </project>

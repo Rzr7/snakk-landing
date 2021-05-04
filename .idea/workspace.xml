@@ -19,13 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a77ed7c0-e961-4e3c-9bfb-94ba30b9a8df" name="Default Changelist" comment="typo fix">
-      <change afterPath="$PROJECT_DIR$/img/qr.jpg" afterDir="false" />
+    <list default="true" id="a77ed7c0-e961-4e3c-9bfb-94ba30b9a8df" name="Default Changelist" comment="add terms and privacy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/en/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/en/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/qr.jpeg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ru/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ru/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +30,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -52,6 +55,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -91,7 +95,9 @@
       <workItem from="1606751372583" duration="392000" />
       <workItem from="1608061198341" duration="122000" />
       <workItem from="1608061369857" duration="204000" />
-      <workItem from="1619640722673" duration="710000" />
+      <workItem from="1619640722673" duration="1182000" />
+      <workItem from="1619893901669" duration="2233000" />
+      <workItem from="1620123346277" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="remove useless trash">
       <created>1606422997495</created>
@@ -163,7 +169,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608061564633</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update qr code - add demo link">
+      <created>1619641448622</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1619641448622</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add terms and privacy">
+      <created>1619895512540</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1619895512540</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +213,8 @@
     <MESSAGE value="qr replace" />
     <MESSAGE value="qr url replace" />
     <MESSAGE value="typo fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="typo fix" />
+    <MESSAGE value="update qr code - add demo link" />
+    <MESSAGE value="add terms and privacy" />
+    <option name="LAST_COMMIT_MESSAGE" value="add terms and privacy" />
   </component>
 </project>
